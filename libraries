@@ -1,0 +1,11 @@
+# Here you will find the libraries that use it
+
+# - tkinter
+# - pyperclip we use it to copy and I did not use the clipboard in tkinter because it has a bug
+
+# Go to terminal and install the above libraries as bellow:
+
+# tkinter you will find it previously exist just call it
+pip install pyperclip
+
+# Now  practice on the code
