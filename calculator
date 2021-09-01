@@ -19,7 +19,7 @@ def press(x):
     global i
     i += 1
     entry.configure(state=NORMAL)
-    entry.insert(i, x)  # المشكلة هنا أننا عندما نستخدم insert(index, value
+    entry.insert(i, x) 
     entry.configure(state=DISABLED)
 
 def equalResult():
@@ -61,7 +61,7 @@ def remove():
     entry.delete(w - 1)
     entry.configure(state=DISABLED)
 
-
+#Here you can change the color Buttons 
 def color_mode():
     root.configure(bg='#eaeaea')
     style.theme_use('vista')
@@ -164,8 +164,6 @@ colorMode.place(width=225, height=40, y=160, x=1)
 Copy = Button(root, text='copy', fg="#D6DFE0", bg="GREEN", font=("arial", 15,'bold'), command=lambda: copyNum())
 Copy.place(width=125, height=40, y=160, x=225)
 
-
-# bugs --> when press on any btn we want insert numbers in ordered ex: 12456 not 65421 يعني بالترتيب يعني ضغط على الزر يعطيك الرقم بعده وليس خلفه
 
 
 
